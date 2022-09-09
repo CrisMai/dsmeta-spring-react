@@ -29,7 +29,7 @@ public class SmsService {
 	private SaleRepository saleRepository;
 
 	public void sendSms(Long saleId) {
-		
+		System.out.println("test" + twilioKey );
 		Sale sale = saleRepository.findById(saleId).get();
 		
 		String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
