@@ -1,0 +1,16 @@
+
+twilio.sid=ACd332889e35345ef1ba71fb215ffffffd
+twilio.key=bd17e4c726d7512686ffd16c70cb27e3
+twilio.phone.from=+19705467141
+twilio.phone.to=+5549991976343
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
